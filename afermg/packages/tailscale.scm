@@ -1,4 +1,4 @@
-(define-module (packages tailscale)
+(define-module (afermg packages tailscale)
 	       #:use-module (guix packages)
 	       #:use-module (gnu packages linux)
 	       #:use-module (guix gexp)
@@ -30,5 +30,3 @@
      "Tailscale is a zero config VPN for building secure networks. Install on any device in minutes. Remote access from any network or physical location.")
     (home-page "https://tailscale.com/")
     (license #f)))
-
-tailscale
