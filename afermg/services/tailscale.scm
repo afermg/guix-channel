@@ -1,5 +1,5 @@
 (define-module (afermg services tailscale)
-	       #:use-module (saml packages tailscale)
+	       #:use-module (afermg packages tailscale)
 	       #:use-module (gnu services)
 	       #:use-module (gnu services shepherd)
 	       #:use-module (gnu services configuration)
