@@ -458,9 +458,7 @@ ACTION==\"unbind\", SUBSYSTEM==\"pci\", ATTR{vendor}==\"0x10de\", ATTR{class}==\
      "This package provides libraries of the proprietary NVIDIA driver.  It's
 mainly used as a dependency of other packages.  For user-facing purpose, use
 @code{nvda} instead.")
-    (license
-     (license:nonfree
-      (format #f "file:///share/doc/nvidia-driver-~a/LICENSE" version)))))
+    (license (license:nonfree "file://COPYRIGHT.txt"))))
 
 (define-public nvidia-libs
   (deprecated-package "nvidia-libs" nvidia-driver))
@@ -544,9 +542,7 @@ field of the @code{operating-system} configuration.
 
 If the NVIDIA card is not used for displaying, or on a Wayland environment,
 add @code{nvidia_drm.modeset=1} to @code{kernel-arguments} as well.")
-    (license
-     (license:nonfree
-      (format #f "file:///share/doc/nvidia-driver-~a/LICENSE" version)))))
+    (license (license:nonfree "file://COPYRIGHT.txt"))))
 
 (define-public nvidia-module-open
   (let ((base nvidia-module))
