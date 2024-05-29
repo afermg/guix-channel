@@ -1013,4 +1013,3 @@ Management Library")
 NVIDIA Management Library")
     (license license-gnu:bsd-3)))
 
-nvidia-driver
