@@ -9,7 +9,7 @@
 ;;; Copyright © 2022 Alexey Abramov <levenson@mmer.org>
 ;;; Copyright © 2022, 2023, 2024 Hilton Chain <hako@ultrarare.space>
 
-(define-module (nongnu packages nvidia)
+(define-module (afermg packages nvidia)
   #:use-module (guix packages)
   #:use-module (guix deprecation)
   #:use-module (guix download)
