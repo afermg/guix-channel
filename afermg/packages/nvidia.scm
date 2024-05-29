@@ -17,6 +17,7 @@
   #:use-module (guix git-download)
   #:use-module (guix utils)
   #:use-module ((guix licenses) #:prefix license-gnu:)
+  #:use-module (gnu packages)
   #:use-module ((nonguix licenses) #:prefix license:)
   #:use-module (guix build-system linux-module)
   #:use-module (guix build-system cmake)
